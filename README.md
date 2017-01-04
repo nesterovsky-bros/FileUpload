@@ -28,3 +28,5 @@ Then you may define a link that will open select file dialog and will upload the
          on-success="controller.uploadSucceed(data, fileName)"
          on-error="controller.uploadFailed(e)"&gt;Click here to upload file&lt;/a&gt;
 </pre>
+
+See also <a href="https://github.com/nesterovsky-bros/UIUpload">UIUpload</a> - an AngularJS directive for HTML5 compatible browsers.
