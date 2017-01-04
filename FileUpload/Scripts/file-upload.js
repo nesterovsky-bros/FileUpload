@@ -16,8 +16,8 @@
   module.directive(
     "fileUpload",
     [
-      "$timeout", "$parse",
-      function ($timeout, $parse)
+      "$timeout",
+      function ($timeout)
       {
         var directive =
         {
